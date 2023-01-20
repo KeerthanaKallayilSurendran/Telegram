@@ -1,0 +1,86 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    box-sizing: border-box;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    color: #333;
+    font-size: 12px;
+}
+.header-section{
+    height: 50px;
+    box-shadow: none;
+    border-bottom: 1px solid #e8e8e8;
+}
+.navbar{
+    height: 50px;
+    margin: 0px 60px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    position: sticky;
+}
+
+.nav-item-left{
+    padding: 15px;
+}
+
+.nav-item-left ul{
+
+}
+
+.nav-item-left ul li{
+    list-style: none;
+    display: inline;
+}
+
+.nav-item-left ul li a{
+    text-decoration: none;
+    color: #0088cc;
+    font-size: 15px;
+    padding: 15px 15px;
+}
+
+.nav-item-right{
+    padding: 15px;
+}
+
+.nav-item-right ul{
+
+}
+
+.nav-item-right ul li{
+    list-style: none;
+    display: inline;
+}
+
+.nav-item-right ul li a{
+    text-decoration: none;
+    color: #0088cc;
+    font-size: 15px;
+    padding: 15px 15px;
+}
+
+.main-content{
+    height: 100vh;
+}
+
+.footer-section{
+    border-top: 1px solid #e8e8e8;
+    max-width: 800px;
+    margin: 10px auto 0;
+    padding: 28px 0 34px;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    justify-content: space-between;
+
+}
+
+
+.footer-telegram{
+    flex: 0 1 290px;
+    align-self: auto;
+}
