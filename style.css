@@ -62,14 +62,52 @@ body{
     font-size: 15px;
     padding: 15px 15px;
 }
-
-.main-content{
+.main-content-wrapper{
     height: 100vh;
+    margin-top: 40px;
 }
+.main-content-logo-section{
+    text-align: center;
+}
+
+.main-content-logo{
+    padding: 10px;
+}
+
+.main-content-logo a{
+    text-decoration: none !important;
+}
+
+.main-content-logo a img{
+    display: block;
+    width: 125px;
+    height: 125px;
+    margin: -8px auto;
+}
+
+.logo-caption{ 
+   font-size: 20px;
+   color: #8c8c8c;
+   font-family:  "Helvetica Light", Helvetica, Arial , Verdana, sans-serif;
+   line-height: 148%; 
+   font-weight: 300;
+}
+
+.side-news-bar{
+    border-left: 5px solid #179cde;
+    height: 280px;
+    position: absolute;
+    left: 70%;
+    margin-left: -3px;
+    margin-top: 90px;
+    top:0;
+    border-radius: 5px;
+}
+.side-recent-news{}
 
 .footer-section{
     border-top: 1px solid #e8e8e8;
-    max-width: 800px;
+    max-width: 900px;
     margin: 10px auto 0;
     padding: 28px 0 34px;
     display: flex;
@@ -79,8 +117,43 @@ body{
 
 }
 
-
+.footer_col_wrap{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    justify-content: space-between;
+    align-content: stretch;
+    align-items: stretch;
+    margin: 0 auto;
+    max-width: 800px;
+}
 .footer-telegram{
     flex: 0 1 290px;
     align-self: auto;
 }
+
+
+.footer-column h5{
+    font-size: 14px;
+    margin-bottom: 9px;
+    margin-top: 0;
+    font-weight: bold;
+}
+
+.footer-left-section ul li{
+    list-style: none;
+    font-size: 14px;
+    line-height: 23px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+.footer-left-section ul li a{
+    text-decoration: none;
+    color: #0088cc;
+}
+
+.footer-left-section ul li a:hover {
+    text-decoration: underline;
+    color: #0088cc;
+}
+
